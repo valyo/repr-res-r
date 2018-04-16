@@ -3,12 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to repr-res-r's documentation!
+Reproducible research with R
 ======================================
 
+another header
+==============
+
+Contents
+
+Guide
+^^^^^
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   license
 
 
 

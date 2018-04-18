@@ -1,6 +1,20 @@
-license
-=======
+About
+=====
+These pages contain the material for the course Reproducible research with R
 
+Material
+========
+Slides from lectures covering the topics above are available as epub or pdf. If you're looking for slides/tutorials from a particular instance of the course, select the appropriate Read the Docs tag in the bottom of the panel to the left.
+
+
+Author
+======
+Valentin Georgiev
+
+SciLifeLab, `National Bioinformatics Infrastructure Sweden (NBIS) <http://nbis.se/>`_, Compute and Storage
+
+License
+=======
 MIT License
 
 Copyright (c) 2018 Valentin Georgiev

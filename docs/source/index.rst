@@ -3,27 +3,31 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Reproducible research with R
-======================================
+Welcome to Reproducible research with R
+=======================================
+These pages contain the material for the course Reproducible research with R
 
-another header
-==============
 
-Contents
-
-Guide
-^^^^^
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Welcome:
 
-   license
+   welcome/welcome
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: About:
+
+   about/about
+   
+   
 
 
 
-Indices and tables
-==================
+.. Indices and tables
+.. ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`

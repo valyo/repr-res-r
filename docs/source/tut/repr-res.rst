@@ -12,4 +12,5 @@ The main factors determining if a project will end up as reproducible or irrepro
 - Documentation 
 - Automation
 
-bla
+Best practices for project organization
+---------------------------------------

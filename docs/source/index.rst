@@ -17,7 +17,7 @@ These pages contain the material for the course Reproducible research with R
 
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Tutorials:
 
    tut/repr-res

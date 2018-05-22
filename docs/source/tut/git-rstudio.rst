@@ -4,7 +4,7 @@ Version control - using Git with RStudio
 A few words about Git and GitHub
 --------------------------------
 
-Version control is a concept originating from software development, where it helps developers and development teams to manage changes to source code over time. Nowadays it becomes more and more popular in almost all research that deals with a lot of data and uses/develops tools for working with data. For any researcher version control can be a way to save their work and keep track of changes in data, scripts, notes, documentation.
+Version control is a concept originating from software development, where it helps developers and development teams to manage changes to source code over time. Nowadays it becomes more and more popular in almost all research areas that deal with a lot of data and use/develop tools for working with data. For any researcher version control can be a way to save their work and keep track of changes in data, scripts, notes, documentation.
 
 One of the most used version control software is Git, and one of the most popular services for hosting Git repositories is `GitHub.com <https://github.com/>`_. RStudio has functionality for working with Git and GitHub, and that's the subject of this session.
 
@@ -26,7 +26,7 @@ Getting started
 
 First you need to make sure that the version control integration is enabled in RStudio, and that it knows the right path to Git.
 
-1. Go to **Preferences** (or **Tools**>**Global Options**), and select **Git/SVN** from the categories in the left-hand side menu. A window like the following one will show up:
+1. Go to **Preferences** (or **Tools** > **Global Options**), and select **Git/SVN** from the categories in the left-hand side menu. A window like the following one will show up:
 
  .. image:: ../images/git1.png
 
@@ -47,15 +47,23 @@ First you need to make sure that the version control integration is enabled in R
  .. image:: ../images/git2a.png
  
  .. hint::
+
+       Follow these instructions for importing oyur SSH key to Github - `<https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/>`_
+
+ .. hint::
        
-       Visit this `discussion <https://superuser.com/questions/261361/do-i-need-to-have-a-passphrase-for-my-ssh-rsa-key>`_ for more information about the use of passphrase for SSH RSA keys, and other some general security considerations.
+       Look at this `discussion <https://superuser.com/questions/261361/do-i-need-to-have-a-passphrase-for-my-ssh-rsa-key>`_ for more information about the use of passphrase for SSH RSA keys, and other some general security considerations
+
+
+Once we have RStudio integrated properly with Git and a SSH key exported to GitHub we can contiue with a couple of different scenarios.
+
 
 Adding version control to an existing project
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In the first part of this workshop we created a new project from scratch, in a clean new directory. We didn't check the option “Create a Git repository”, therefore this project is not tracked by Git and if you navigate to the directory in some CLI and you type *git status* you will get an output like this one: *fatal: Not a git repository (or any of the parent directories): .git*.
+In the first part of this workshop we created a new project from scratch, in a clean new directory. We didn't check the option “Create a Git repository”, therefore this project is not tracked by Git and if you navigate to the directory in some CLI and if you type *git status* you will get an output like this one: *fatal: Not a git repository (or any of the parent directories): .git*.
 
-You can make your project a Git repository in (at least) two ways. The traditional way will be to just navigate into the directory and type *git init*, and after restarting RStudio it will sense the Git repository.
+You can make your project a Git repository in (at least) two ways. The traditional way will be to just navigate into the directory and type *git init*. After restarting RStudio it will sense the Git repository.
 
 The same can be achieved directly from RStudio:
 
@@ -99,6 +107,8 @@ This is simply done by doing the steps from `Creating a project in a new directo
 Creating a project by checking out a GitHub repository
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+In this scenario we have a link to a GitHub repository containing some data we want to analyse. We can checkout the repository and create a RStudio project "simultaniously" using the following steps:
+
 1. Click the “File” menu button, then “New Project” and select the option "Version Control". 
 
  You will get to the following window:
@@ -119,7 +129,7 @@ Creating a project by checking out a GitHub repository
 
  .. image:: ../images/github4.png
 
- As you can see, when you paste the repository URL, the field "Project directory name" get automatically filled in with the repository name **proj-repr-R**. 
+ As you can see, when you paste the repository URL, the field "Project directory name" gets automatically filled in with the repository name **proj-repr-R**. 
 
  .. Note:: 
 
@@ -127,3 +137,8 @@ Creating a project by checking out a GitHub repository
 
 The take-home message
 ---------------------
+
+RStudio has functionality that allows us to work with Git repositories in well organized and reproducible manner:
+ - we can easily initialize Git repositories in existing project directories 
+ - we can create new repositories from scratch
+ - we can checkout repositories from GitHub directly into RStudio projects.

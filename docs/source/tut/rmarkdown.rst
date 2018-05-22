@@ -1,10 +1,10 @@
-R Markdown for creating reproducible reports or notebooks
-=========================================================
+R Markdown for creating reproducible reports
+============================================
 
 R scripts
 ---------
 
-The simplest and most obvious way to document an analysis in R is to save all the code in an R script. If the script includes description and/or code for obtaining the data, and enough comments, we have a decent level of reproducibility of this analysis. 
+The simplest and most obvious way to document an analysis in R is to save all the code in an R script. If the script includes description and/or code for obtaining the data, and enough comments, we have a decent level of reproducibility already. 
 
 .. important:: 
 
@@ -39,7 +39,7 @@ A markdown document can be converted to formats like HTML or PDF for viewing in 
 
 R Markdown documents can contain text, chunks of code, or a mixture of text and code. The code snippets can be executed and the output of their execution becomes part of the markdown document and can be included in the final file generated from compiling the markdown. This basically means that you can connect your code, your results and plots together with descriptive text, and you can generate reproducible reports directly from RStudio. Compare this with formatting text and code and copy-pasting figures in a Word document!?!
 
-You can also use R Markdown as a notebook, in the same way as lab notebooks are used in a wet lab setting (or as we use a Jupyter notebook in the tutorial).
+You can also use R Markdown as a notebook, in the same way as lab notebooks are used in a wet lab setting (or as we use a Jupyter notebook in the tutorial). Notebooks could not be squeezed in into this workshop but knowing the principles and having a look at `RStudio's introduction of Notebooks with R Markdown <https://rmarkdown.rstudio.com/lesson-10.html>`_ can help you get going.
 
  .. note::
     In addition to executing R code chunks, you can also execute chunks in a variety of other languages like Python, Bash, CSS, JavaScript. See this `link <https://rmarkdown.rstudio.com/authoring_knitr_engines.html>`_ for more information.
@@ -57,14 +57,14 @@ Hands-on session:
 Create a new R Markdown document
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-We will start out by creating of a new document in our project ... TODO
+We will start out by creating of a new document in one of our existing projects:
 
-1. Start RStudio and switch to project ... XXXXXXX
+1. Start RStudio and switch to one of the empty projects created in the previous parts.
 2. Select "File" > "New File" > "R Markdown..."
 3. In case you get prompted to install a few required packages, please do that!
 4. In the window that opens, select HTML in the "Default Output Format" (should be default), leave everything else as it is and click "OK"
 
- This will open a template R Markdown document for you in the RStudio Markdown editor:
+ This will open for you the following template R Markdown document in the RStudio Markdown editor:
 
 .. image:: ../images/rmarkdown1.png
 
@@ -206,9 +206,9 @@ Let's get more comfortable with the code chunks by looking at those in your temp
 An example: Creating a PDF report with R Markdown
 -------------------------------------------------
 
-Let's go through a complete example in which we will make use all the concepts from this workshop. We will checkout a Git repository into an R project and we will run simple R analysis, and we will create a report in PDF format using R Markdown.
+Let's go through a complete example in which we will make use of most of the concepts from this workshop. We will checkout a Git repository into an R project and we will run simple R analysis, and we will create a report in PDF format using R Markdown.
 
-1 Create a new project in RStudio by going to the "Clone Git repository" window and using git@github.com:valyo/solubility_example.git as a "Repository URL". You can leave the "Project directory name:" field to have the default name, or you can change it to your liking. The same applies for the "Create a project as a subdirectory of :" field.
+1 Create a new project in RStudio by going to the "Clone Git repository" window and using "git\@github.com:valyo/solubility_example.git" as a "Repository URL". You can leave the "Project directory name:" field to have the default name, or you can change it to your liking. The same applies for the "Create a project as a subdirectory of :" field.
 
 2 Explore the R scripts in the project and get familiar with the included datasets 
 

@@ -13,6 +13,9 @@ Valentin Georgiev
 
 SciLifeLab, `National Bioinformatics Infrastructure Sweden (NBIS) <http://nbis.se/>`_, Compute and Storage
 
+Attribution - parts of this work are derived from Copyright © Software Carpentry (`<http://software-carpentry.org/>`_) 
+
+
 License
 =======
 MIT License

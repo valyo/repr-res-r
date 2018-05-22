@@ -8,7 +8,7 @@ May 24th, 2018
 
 Location:
 ---------
-SciLifeLab Uppsala, Sweden
+Plantskolan, K1:477, Segerstedtshuset, Uppsala, Sweden
 
 Course description
 ==================

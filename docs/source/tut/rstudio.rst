@@ -14,29 +14,31 @@ How does R behave
 R can be launched in two different ways, from the GUI or from the CLI. 
 
 - When launched via the GUI app it creates a history file .Rapp.history and, if the session gets saved in the end, an .Rdata file in the user home directory. This also means that the user's home directory is R *working directory* for this session. 
-- When launched from the CLI, the files mentioned above are created in the user current working directory, which becomes *working directory* for R.
+- When launched from the CLI, the files mentioned above are created in the current working directory, which becomes *working directory* for R.
 
-This behavior can be changed from the R app Preferences menu or via a file .Rprofile placed in the directory from which R is started. You can in principle achieve some separation between your projects when using R, but it is not the most straightforward and elegant solution.
+This behavior can be changed from the R app Preferences menu or via a file .Rprofile placed in the directory from which R is started. You can in principle achieve decent separation between your projects when using R, but it is not the most straightforward and elegant solution.
 
 
 How does RStudio behave
 ~~~~~~~~~~~~~~~~~~~~~~~
 RStudio on the other hand, when launched creates an R session with the user's home directory as a *working directory*. This session's environment and the history of R commands are saved in the home directory (.Rdata and .Rhistory files). You can always change the *working directory* to a folder where you have some data and/or scripts.
 
-Hands-on session I:
-~~~~~~~~~~~~~~~~~~~
-Play around with the different ways to start R and RStudio; show how easy it is to spread around files and how inconvenient it is to systematically switch between directories belonging to separate projects.
+Hands-on session I (optional):
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- Play around with the different ways to start R and RStudio
+- Figure out the working directory and try to find it in the file structure on your computer
+- Switch back and forth between working directories
 
 
-A possible solution
--------------------
-RStudio has a project management functionality that makes the organization of data and tools straightforward. I allows you to create new project and to import existing projects, and probably the most important, to switch easily between your projects.
+Possible solution
+-----------------
+RStudio has a project management functionality that makes organization of data and tools straightforward. I allows you to create new project and to import existing projects, and importantly, to switch easily between your projects.
 
 Let's see how it works.
 
 Hands-on session II:
 ~~~~~~~~~~~~~~~~~~~~
-We are going to practice now how to create a project from scratch (in a brand new directory), and from an existing directory 
+We are now going to practice how to create a project from scratch (in a brand new directory), and from an existing directory 
 
 .. **Creating a self-contained project in RStudio:**
 
@@ -58,7 +60,7 @@ Creating a project in a new directory in RStudio
 
 |
 
- In the field "Directory name" you can fill in a name for your new project, and the field "Create project as subdirectory of:" lets you choose a location for that new directory. You can type or paste the path in the field, or you can click the "Browse..." button and use the GUI to navigate through the file structure to a directory where you want your new project to be in. In the next topic we will look at the "Create a Git repository" option, but let us now just focus on the project creation workflow. 
+ In the field "Directory name" you can fill in a name for your new project, and the field "Create project as subdirectory of:" lets you choose a location for that new directory. You can type or paste the path in the field, or you can click the "Browse..." button and use the GUI to navigate through the file structure to a directory where you want your new project to reside. In the next topic we will look at the "Create a Git repository" option, but let us now just focus on the project creation workflow. 
 
 4. When done with the project name and location you click the button "Create Project" and RStudio will close the current R session and it will open a new session. 
  
@@ -76,7 +78,7 @@ Creating a project in a new directory in RStudio
   There should be only on file present there, named .you_project_name.Rproj
 
  Create an R object (it doesn't matter if it is a number, or a vector, or a string) and close RStudio.
-  You will be asked if you want to save the workspace in an image called .Rdata inside the working directory, click the "Save" button. If you now look at the working directory you will see that two files have appeared - .Rhistory and .RData.
+  You will be asked if you want to save the workspace in an image called .Rdata inside the working directory, click the "Save" button. If you now look into the working directory you will see that two files have appeared - .Rhistory and .RData.
 
   RStudio will always save the history of your commands in an .Rhistory file, but the objects in your workspace will only be saved if you choose to save the image file .Rdata
 
@@ -86,8 +88,8 @@ Creating a project in a new directory in RStudio
 Creating a project in a existing directory in RStudio
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Clone the following Git repository somewhere on your computer.
-2. Create a new project in RSTudion by going through the steps from the previous section. This time choose "Existing Directory" from the window:
+1. Clone the following Git repository somewhere on your computer - `<git@github.com:valyo/example.git>`_
+2. Create a new project in RStudio by going through the steps from the previous section. This time choose "Existing Directory" from the window:
 
 .. image:: ../images/new_proj1.png
 
@@ -102,7 +104,7 @@ There is no field to write a directory name here, because you are supposed to al
 Switch between projects 
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-1. In the upper right-hand side corner of the RStudio window you will find the name of your project and if you click on it you will get a drop-down menu with a list of Projects related items. It looks approximately like this:
+1. In the upper right-hand side corner of the RStudio window you will find the name of your project and if you click on it you will get a drop-down menu with a list of Projects-related items. It looks approximately like this:
 
  The menu with you project name:
 
@@ -128,5 +130,5 @@ Switch between projects
 
      If you click "Close Project" in the drop-down menu, RStudio will close the current project's session and will open a session with your home directory as a *working directory*.
 
-The take-home message
----------------------
+
+

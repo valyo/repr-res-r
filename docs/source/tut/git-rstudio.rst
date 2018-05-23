@@ -6,7 +6,7 @@ A few words about Git and GitHub
 
 Version control is a concept originating from software development, where it helps developers and development teams to manage changes to source code over time. Nowadays it becomes more and more popular in almost all research areas that deal with a lot of data and use/develop tools for working with data. For any researcher version control can be a way to save their work and keep track of changes in data, scripts, notes, documentation.
 
-One of the most used version control software is Git, and one of the most popular services for hosting Git repositories is `GitHub.com <https://github.com/>`_. RStudio has functionality for working with Git and GitHub, and that's the subject of this session.
+One of the most used version control software is `Git <https://git-scm.com/>`_, and one of the most popular services for hosting Git repositories is `GitHub.com <https://github.com/>`_. RStudio has functionality for working with Git and GitHub, and that's the subject of this session.
 
 Git and GitHub integration in RStudio
 -------------------------------------

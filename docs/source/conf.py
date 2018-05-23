@@ -19,7 +19,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'repr-res-r'
+# project = u'repr-res-r'
+project = u'Reproducible research with R'
 copyright = u'2018, Valentin Georgiev'
 author = u'Valentin Georgiev'
 

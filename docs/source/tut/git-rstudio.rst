@@ -138,6 +138,12 @@ In this scenario we have a link to a GitHub repository containing some data we w
 The take-home message
 ---------------------
 
+Git is a popular version control software that can be used in virtually all research areas for:
+ - keeping track of data, documents, and tools
+ - easy collaborative work on projects
+ - easy sharing
+
+
 RStudio has functionality that allows us to work with Git repositories in well organized and reproducible manner:
  - we can easily initialize Git repositories in existing project directories 
  - we can create new repositories from scratch

@@ -75,7 +75,7 @@ Creating a project in a new directory in RStudio
   You should get the absolute path to the newly created directory
  
  Use the GUI and/or CLI to go into the working directory and list its content.
-  There should be only on file present there, named .you_project_name.Rproj
+  There should be only on file present there, named your_project_name.Rproj
 
  Create an R object (it doesn't matter if it is a number, or a vector, or a string) and close RStudio.
   You will be asked if you want to save the workspace in an image called .Rdata inside the working directory, click the "Save" button. If you now look into the working directory you will see that two files have appeared - .Rhistory and .RData.

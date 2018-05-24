@@ -88,7 +88,7 @@ Creating a project in a new directory in RStudio
 Creating a project in a existing directory in RStudio
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Clone the following Git repository somewhere on your computer - `<git@github.com:valyo/example.git>`_
+1. Clone the following Git repository somewhere on your computer - `<https://github.com/valyo/example.git>`_
 2. Create a new project in RStudio by going through the steps from the previous section. This time choose "Existing Directory" from the window:
 
 .. image:: ../images/new_proj1.png

@@ -23,8 +23,8 @@ How does RStudio behave
 ~~~~~~~~~~~~~~~~~~~~~~~
 RStudio on the other hand, when launched creates an R session with the user's home directory as a *working directory*. This session's environment and the history of R commands are saved in the home directory (.Rdata and .Rhistory files). You can always change the *working directory* to a folder where you have some data and/or scripts.
 
-Hands-on session I (optional):
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hands-on session (optional)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - Play around with the different ways to start R and RStudio
 - Figure out the working directory and try to find it in the file structure on your computer
 - Switch back and forth between working directories
@@ -36,8 +36,8 @@ RStudio has a project management functionality that makes organization of data a
 
 Let's see how it works.
 
-Hands-on session II:
-~~~~~~~~~~~~~~~~~~~~
+Hands-on session
+~~~~~~~~~~~~~~~~
 We are now going to practice how to create a project from scratch (in a brand new directory), and from an existing directory 
 
 .. **Creating a self-contained project in RStudio:**

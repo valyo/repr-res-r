@@ -51,8 +51,8 @@ The structure of an R Markdown document
 
 The best way to understand and learn R Markdown is by using it, so head down to the hands-on session below to learn more about the R Markdown document structure!
 
-Hands-on session:
-~~~~~~~~~~~~~~~~~
+Hands-on session
+~~~~~~~~~~~~~~~~
 
 Create a new R Markdown document
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
